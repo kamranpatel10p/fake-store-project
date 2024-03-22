@@ -1,0 +1,6 @@
+<div class="row row gx-5 gy-3">
+  <!-- PRODUCT-->
+  <div *ngFor="let product of products" class="col-lg-4 col-sm-6" [class.col-xl-3]="fullWidth">
+    <app-product-item [product]="product"></app-product-item>
+  </div>
+</div>
